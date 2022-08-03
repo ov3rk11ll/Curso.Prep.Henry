@@ -58,7 +58,7 @@ function readFile() {
 }
 
 
-module.exports = function report(data) {
+/* module.exports = function report(data) {
   try {
     const lastRun = readFile();
     const username = getGitEmail();
@@ -106,5 +106,5 @@ module.exports = function report(data) {
     console.error(error);
   }
   return data;
-};
+}; */
 
